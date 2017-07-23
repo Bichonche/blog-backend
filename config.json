@@ -1,0 +1,22 @@
+{
+  "development" : {
+    "client" : "mysql",
+    "connection": {
+      "host": "127.0.0.1",
+      "user": "root",
+      "password": "root",
+      "database": "blog_test",
+      "charset": "utf8"
+    }
+  },
+  "test" : {
+    "client" : "mysql",
+    "connection": {
+      "host": "127.0.0.1",
+      "user": "root",
+      "password": "root",
+      "database": "blog",
+      "charset": "utf8"
+    }
+  }
+}
